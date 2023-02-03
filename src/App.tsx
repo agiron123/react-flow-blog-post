@@ -20,7 +20,9 @@ function App() {
     return nodes.map((node) => {
       return {
         id: node.id,
+        // width of the node in px.
         width: 150,
+        // height of the node in px.
         height: 75,
         // Put all nodes in the same place
         // so we can have elk position for us
