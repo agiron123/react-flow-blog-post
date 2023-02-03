@@ -21,7 +21,10 @@ function App() {
       return {
         id: node.id,
         width: 150,
-        height: 75
+        height: 75,
+        // Put all nodes in the same place
+        // so we can have elk position for us
+        position: { x: 0, y: 0 }
       }
     })
   };
