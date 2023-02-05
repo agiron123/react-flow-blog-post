@@ -24,9 +24,6 @@ function App() {
         width: 150,
         // height of the node in px.
         height: 75,
-        // Put all nodes in the same place
-        // so we can have elk position for us
-        position: { x: 0, y: 0 }
       }
     })
   };

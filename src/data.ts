@@ -43,21 +43,21 @@ export const nodes: ReactFlowNode[] = [
         id: "3",
         type: "customNode",
         data: {
-            label: "classifier_1"
+            label: "linear_model"
         },
         position: {
-            x: 400,
-            y: 0
+            x: 210,
+            y: 15
         }
     },
     {
         id: "4",
         type: "customNode",
         data: {
-            label: "classifier_2"
+            label: "svm_model"
         },
         position: {
-            x: 400,
+            x: 300,
             y: -175
         }
     },
@@ -65,10 +65,10 @@ export const nodes: ReactFlowNode[] = [
         id: "5",
         type: "customNode",
         data: {
-            label: "classifier_3"
+            label: "decision_tree_model"
         },
         position: {
-            x: 400,
+            x: 350,
             y: 175
         }
     },
@@ -79,7 +79,7 @@ export const nodes: ReactFlowNode[] = [
             label: "predict_ensemble"
         },
         position: {
-            x: 600,
+            x: 400,
             y: 0
         }
     },
@@ -90,7 +90,7 @@ export const nodes: ReactFlowNode[] = [
             label: "predict_ensemble_artifact"
         },
         position: {
-            x: 800,
+            x: 500,
             y: 0
         }
     },
@@ -101,7 +101,7 @@ export const nodes: ReactFlowNode[] = [
             label: "save_pred_to_db"
         },
         position: {
-            x: 1000,
+            x: 600,
             y: 0
         }
     }
